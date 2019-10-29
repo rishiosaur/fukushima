@@ -6,7 +6,7 @@ Fukushima Daiichi  # CLASS: title
 
 By Rishi Kothari # CLASS: subtitle
 
-* [Continue?]
+* [Play]
   -> Intro.America
 
 === Intro ===
@@ -20,11 +20,15 @@ You are a geographer at Stanford University (<em>Phillip Lipscy</em>), studying 
 
 All of the data looks fine, with no seismograph readings going above 0.1mm in ground displacement. The highest is near the station named FKS2005, shortly off the eastern coast of Japan. All seems well, so you take a nap.
 
+* [Continue?]
+    -> Intro.am2
+
+= am2
 America, 05:46 UTC # CLASS: time
 
 You wake up from your nap irritated; you were in the middle of a good dream. Looking around, you wonder, "What woke me up? I didn't set any alarms." However, you soon see a small flashing light on your dashboard, and your irritation quickly gets replaced with fear. 
 
-That flashing light can only mean one thing: an earthquake, signalled by a dangerously high reading from a seismograph.
+That flashing light can only mean one thing: an earthquake, signalled by a dangerously high reading from a seismograph. # IMAGE: smgraph.jpeg
 
 In this case, the readings were coming from the FKS2005 station's NS montior, and glancing up, you see something terrible: ground displacement levels reaching greater than 15mm! You nearly jump off your chair in surprise. Readings like this mean that a terrible disaster is on its way, one that will end up in the history books.
 
@@ -83,9 +87,7 @@ America, 05:54 UTC # CLASS: time
 
 Your readings show that the shaking in Japan has stopped, for the most part.
 
-You now look at the harder task of figuring out 
-why # CLASS: italic
-the earthquake occurred.
+You now look at the harder task of figuring out <em>why<\/em> the earthquake occurred.
 
 Looking at your diagrams, you see that the earthquake was caused by a shift in the Pacific/Eurasian tectonic plate border. # IMAGE: subduction.png
 
