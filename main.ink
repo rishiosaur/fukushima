@@ -1,9 +1,8 @@
 # theme: dark
 
-Turn sound on, press F11 for full experience. # IMAGE: wave
+Turn sound on, press F11 for full experience. If audio is not playing, go <a href="https:\/\/fukushima.now.sh\/music.mp3">here</a> # IMAGE: wave.jpg
 
 Fukushima Daiichi  # CLASS: title
-The disaster
 
 By Rishi Kothari # CLASS: subtitle
 
@@ -17,7 +16,7 @@ By Rishi Kothari # CLASS: subtitle
 # IMAGE: stanford.jpg
 America, 05:40 UTC # CLASS: time
 
-You are a geographer at Stanford University (Phillip Lipscy), studying the effects of earthquakes on popular society. To do this, you are monitoring data from your monitoring stations, located all around the world.
+You are a geographer at Stanford University (<em>Phillip Lipscy</em>), studying the effects of earthquakes on popular society. To do this, you are monitoring data from your monitoring stations, located all around the world.
 
 All of the data looks fine, with no seismograph readings going above 0.1mm in ground displacement. The highest is near the station named FKS2005, shortly off the eastern coast of Japan. All seems well, so you take a nap.
 
