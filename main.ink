@@ -1,12 +1,12 @@
 # theme: dark
 
-Turn sound on, press F11 for full experience. If audio is not playing, go <a href="https:\/\/fukushima.now.sh\/music.mp3">here</a> # IMAGE: wave.jpg
+Turn sound on, press F11 for full experience. If audio is not playing, go <a href="https:\/\/fukushima.now.sh\/music.mp3" target="_blank" >here</a> # IMAGE: wave.jpg
 
 Fukushima Daiichi  # CLASS: title
 
-By Rishi Kothari # CLASS: subtitle
+The disaster behind the disaster. # CLASS: subtitle
 
-* [Play]
+* [<span class="play">Start</span>]
   -> Intro.America
 
 === Intro ===
@@ -14,6 +14,7 @@ By Rishi Kothari # CLASS: subtitle
 = America
 
 # IMAGE: stanford.jpg
+# CLASS: america
 America, 05:40 UTC # CLASS: time
 
 You are a geographer at Stanford University (<em>Phillip Lipscy</em>), studying the effects of earthquakes on popular society. To do this, you are monitoring data from your monitoring stations, located all around the world.
@@ -24,6 +25,7 @@ All of the data looks fine, with no seismograph readings going above 0.1mm in gr
     -> Intro.am2
 
 = am2
+# CLASS: america
 America, 05:46 UTC # CLASS: time
 
 You wake up from your nap irritated; you were in the middle of a good dream. Looking around, you wonder, "What woke me up? I didn't set any alarms." However, you soon see a small flashing light on your dashboard, and your irritation quickly gets replaced with fear. 
@@ -40,6 +42,7 @@ Before reporting this incident, you double check the other monitors at the FK200
 = Japan
 
 # IMAGE: fukushima.jpg
+# CLASS: japan
 Japan, 2011, 14:00 JST # CLASS: time
 
 You are a worker in one of Japan's main nuclear facilities: Fukushima Daiichi, and are managing the operations there. All is going well; your systems are functioning, and there are no reports of any odd behavior.
@@ -83,6 +86,7 @@ However, you retain a cool head, and think about what can happen.
 
 
 = Two
+# CLASS: america
 America, 05:54 UTC # CLASS: time
 
 Your readings show that the shaking in Japan has stopped, for the most part.
@@ -111,18 +115,61 @@ As a result, you decide to dig deeper, and think about this: what if this was a 
   -> NuclearManager.Two
 
 = Three
+# CLASS: america
 America, 06:12 UTC # CLASS: time
 
-You have looked through some online resources, and found descriptions of a similar event happening in 869, in the same area.
+You have looked through some online resources, and found descriptions of a similar event happening in 869, in the same area (detailed in the Nihon Sandai Jitsuroku - True History of the Three Reigns of Japan). # IMAGE: jtsunami.png
 
-You think about it, and the theory that a major earthquake like this happens in a cycle of >1000 years makes sense; the amount of time
+You think about it, and the theory that a major earthquake like this happens in a cycle of >1000 years makes sense; the amount of time it takes to build up a megathrust earthquake is about 1000 years.
 
+As a result, you look at the previously detailed events.
 
+It looks like that earthquake started off at the same fault line, and caused enormous structural damage.
+
+However, this earthquake also caused a large amount of damage underwater; a tsunami was created soon after because of the earth shifting from the energy released by the earthquake.
+
+The text describes massive destruction; deaths everywhere, and entire buildings destroyed.
+
+Instantly, you know that the disaster is not over: you phone some of your colleagues to see what you can do.
+
+* [Continue?]
+    -> NuclearManager.Four
+
+= Four
+
+# CLASS: america
+America, 06:30 UTC # CLASS: time
+
+You have found two of your other colleagues: Kenji Kushida and Trevor Incerti.
+
+As academia, you have made it your lives' work to work on things like this, and figure out why they happen.
+
+All of you know that there is no stopping this tsunami, and the damage will be done in a matter of minutes.
+
+As a result, you do what you <em>can</em> do as geologists: study.
+
+Japan may not have an immediate chance at remedy, but if studies get published about the quake, it has a better chance of remedy.
+
+However, all three of you are still awestruck by the events of the past hour. Because of this, you do something that none of you have done before: you pray.
+
+To nobody in particular, you just <em>hope</em> that the people of Japan are safe. It is a false idea, of course, but it still brings some relief to you, if only superficial.
+
+* [Continue?]
+    -> Geographer.Five
+
+= Five
+
+You look at the data given, and you notice something strange: the ground displacement levels.
+
+At the station, they have reached an enormous amount of <em>7 metres</em>! This discovery is monumental; it shows why the earthquake caused the tsunami.
+
+Tsunamis are an effect of 
 
 === NuclearManager ===
 
 = One 
 
+# CLASS: japan
 Japan, 14:46:10 JST # CLASS: time
 You've evacuated everybody from the facility, and gotten to higher ground, just like the policy of Japan states.
  
@@ -158,7 +205,7 @@ You've never been this scared in your life. You close your eyes, wondering: when
   -> Geographer.Two
 
 = Two
-
+# CLASS: japan
 Japan, 14:54 JST # CLASS: time
 
 You open your eyes again, wondering what you will see.
@@ -170,6 +217,7 @@ And then, you stop wondering.
 
 = Three
 
+# CLASS: japan
 Japan, 14:55 JST # CLASS: time
 
 All that you see is destruction.
@@ -196,3 +244,46 @@ However, there is no harbour to be found; the water has all disappeared.
 
 * [Continue?]
   -> Geographer.Three
+
+= Four
+
+# CLASS: japan
+Japan, 15:32 JST # CLASS: time
+
+You hear sirens again, but this time they seem more frantic, and this can mean something even worse than what you saw before: a tsunami.
+
+At that point, you go into full shock.
+
+Sitting down, you know that this will be the end of you, if not the rest of this great city.
+
+You can see the tsunami approaching in the distance. It must be <em>at least</em> 12 metres high.
+
+You could never outrun it.
+
+* [Continue?]
+    -> NuclearManager.Five
+
+= Five
+
+Japan, 15:55 JST # CLASS:time
+
+You see the waves start to come back, and you are filled with peace again.
+
+At least you can enjoy one last respite.
+
+Knowing that your life has been fulfilled, and you have done all that you need to do;
+
+You close your eyes, as the world around you descends, and fades to black.
+
+* [Continue?]
+    -> Geographer.Four
+
+=== End ===
+
+This was a project by <strong>Rishi Kothari</strong>. It details the perspective of two individuals around the world, brought together invisibly through a natural disaster.
+
+The scenes shown in this story are based on real events. All information is accurate, and all people, places and things are real.
+
+Music: Yoyogi - Bunraku
+
+View the source code for this on Github.

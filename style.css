@@ -71,11 +71,12 @@ h3.written-in-ink {
     width: 100%;
     top: 0;
     left: 0;
+    margin-bottom:2em;
 }
 
 .container {
     display: block;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
@@ -90,7 +91,7 @@ p {
     font-size: 13pt;
     color: #888;
     line-height: 1.7em;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 a {
@@ -129,6 +130,11 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    -webkit-box-shadow: 3px 10px 73px -97px rgba(255,255,255,1);
+-moz-box-shadow: 3px 10px 73px -97px rgba(255,255,255,1);
+box-shadow: 3px 10px 73px -97px rgba(255,255,255,1);
+
+
 }
 
 .container .hide {
@@ -182,10 +188,14 @@ p.choice a {
   font-weight: 600;
   padding:0;
   margin: 0;
+  color: white
 }
 
 .subtitle {
   font-size: 2em;
+  font-weight: 400;
+  color:grey;
+  margin-bottom: 0.5em;
 }
 
 .time {
@@ -204,4 +214,32 @@ p.choice a {
   text-align: center;
 }
 
+.play {
+    background-color: white;
+    transition: color 0.6s;
+    transition: background-color 0.6s;
+    color: black;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: block
+}
 
+.play:hover {
+    background-color: #1a88cc;
+    color: white
+    
+}
+
+
+.america::after {
+    content: "🇺🇸";
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.japan::after {
+    content: "🇯🇵";
+  font-size: 1em;
+  vertical-align: middle;
+}

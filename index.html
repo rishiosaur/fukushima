@@ -8,22 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script type="text/javascript">
+    var storyContent = {}
+        $(function(){
+            $.getJSON('main.ink.json', (data)=>{
+                storyContent = data;
+            })
+        })
+    </script>
 </head>
 
 <body>
     
     <embed src="music.mp3" width="180" height="90" loop="true" autostart="true" mastersound hidden="true"/>
     
-  
-
     <div class="outerContainer">
         <div id="story" class="container">
         </div>
     </div>
 
     <script src="ink.js"></script>
-    <script src="story.js"></script>
+    <script src="storyline.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
