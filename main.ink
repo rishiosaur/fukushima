@@ -2,7 +2,8 @@
 
 Turn sound on, press F11 for full experience. # IMAGE: wave
 
-Fukushima Daiichi: The disaster # CLASS: title
+Fukushima Daiichi  # CLASS: title
+The disaster
 
 By Rishi Kothari # CLASS: subtitle
 
@@ -111,7 +112,10 @@ As a result, you decide to dig deeper, and think about this: what if this was a 
 = Three
 America, 06:12 UTC # CLASS: time
 
-You have looked through some online resources, and found that descriptions of a similar event
+You have looked through some online resources, and found descriptions of a similar event happening in 869, in the same area.
+
+You think about it, and the theory that a major earthquake like this happens in a cycle of >1000 years makes sense; the amount of time
+
 
 
 === NuclearManager ===
