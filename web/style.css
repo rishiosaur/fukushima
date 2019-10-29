@@ -178,12 +178,14 @@ p.choice a {
 /* Custom Classes */
 
 .title {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 600;
+  padding:0;
+  margin: 0;
 }
 
 .subtitle {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .time {
@@ -202,6 +204,4 @@ p.choice a {
   text-align: center;
 }
 
-.japan:after {
-  content:  "
-}
+

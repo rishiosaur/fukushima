@@ -1,6 +1,6 @@
 # theme: dark
 
-Turn sound on, press F11 for full experience.
+Turn sound on, press F11 for full experience. # IMAGE: wave
 
 Fukushima Daiichi: The disaster # CLASS: title
 
@@ -14,7 +14,7 @@ By Rishi Kothari # CLASS: subtitle
 = America
 
 # IMAGE: stanford.jpg
-America, 05:40 UTC # CLASS: time america
+America, 05:40 UTC # CLASS: time
 
 You are a geographer at Stanford University (Phillip Lipscy), studying the effects of earthquakes on popular society. To do this, you are monitoring data from your monitoring stations, located all around the world.
 
@@ -36,7 +36,7 @@ Before reporting this incident, you double check the other monitors at the FK200
 = Japan
 
 # IMAGE: fukushima.jpg
-Japan, 2011, 14:00 JST # CLASS: time japan
+Japan, 2011, 14:00 JST # CLASS: time
 
 You are a worker in one of Japan's main nuclear facilities: Fukushima Daiichi, and are managing the operations there. All is going well; your systems are functioning, and there are no reports of any odd behavior.
 
@@ -54,7 +54,7 @@ You start to hear sirens in the distance, and this is terrible news: those siren
 === Geographer ===
 
 = One
-America, 05:48 UTC # CLASS: time america
+America, 05:48 UTC # CLASS: time
 
 Having looked at ground displacement readings from earlier, you decide to look at the seismograph readings from the FKS2005 station, and you notice something disturbing: readings climbing.
 
@@ -79,7 +79,7 @@ However, you retain a cool head, and think about what can happen.
 
 
 = Two
-America, 05:54 UTC # CLASS: time america
+America, 05:54 UTC # CLASS: time
 
 Your readings show that the shaking in Japan has stopped, for the most part.
 
@@ -108,12 +108,17 @@ As a result, you decide to dig deeper, and think about this: what if this was a 
 * [Continue?]
   -> NuclearManager.Two
 
+= Three
+America, 06:12 UTC # CLASS: time
+
+You have looked through some online resources, and found that descriptions of a similar event
+
 
 === NuclearManager ===
 
 = One 
 
-Japan, 14:46:10 JST # CLASS: time japan
+Japan, 14:46:10 JST # CLASS: time
 You've evacuated everybody from the facility, and gotten to higher ground, just like the policy of Japan states.
  
 You're not too scared; it must just be another drill by the government; nothing to worry about.
@@ -160,4 +165,29 @@ And then, you stop wondering.
 
 = Three
 
+Japan, 14:55 JST # CLASS: time
 
+All that you see is destruction.
+
+Your hometown is in ruins. You emerge from your trance shaken, and make your way back to the workplace.
+
+As you walk, you see sights of horror: large swathes of land raised metres high, entire buildings collapsed, families torn apart, fires everywhere.
+
+Japan, 15:00 JST # CLASS: time
+
+You are back at Fukushima, and your fear subsides a little bit: your engineers have done their due diligence in preparation for natural disasters like this.
+
+Fukushima is located on the Eastern coast of Japan, and so is equipped with many systems to combat natural disasters.
+
+It is surrounded by a 10-metre-high wall, to protect against flooding, which can cause water damage to the backup generators for the cooling facilities.
+
+Speaking of backup generators, you are surprised by how flawlessly they worked! Some of the reactor cores were nearly overheating, but when the plant went into shutdown, the backup generators took over the job of cooling, and are just finishing up the job right now.
+
+Some of the other reactors (4, 5, 6) are going in for a routine inspection right about now, and so all of the processes associated with them will be disabled; cooling, and power. However, they will also need to cool down for a while, or a large-scale nuclear reaction will take place.
+
+You look over to the harbor; it has often brought you peace in troubled times.
+
+However, there is no harbour to be found; the water has all disappeared.
+
+* [Continue?]
+  -> Geographer.Three
